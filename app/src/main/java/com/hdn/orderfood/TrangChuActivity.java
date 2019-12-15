@@ -18,15 +18,6 @@ import com.hdn.orderfood.FragmentApp.HienThiBanAnFragment;
 import com.hdn.orderfood.FragmentApp.HienThiNhanVienFragment;
 import com.hdn.orderfood.FragmentApp.HienThiThucDonFragment;
 
-//public class TrangChuActivity extends AppCompatActivity {
-//    @Override
-//    protected void onCreate(@Nullable Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.layout_trangchu);
-//        Intent intent = getIntent();
-//        String tendn = intent.getStringExtra("tendn");
-//    }
-//}
 
 public class TrangChuActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
