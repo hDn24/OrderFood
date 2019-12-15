@@ -34,29 +34,10 @@ public class TrangChuActivity extends AppCompatActivity implements NavigationVie
 
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         navigationView = (NavigationView) findViewById(R.id.navigationview_trangchu);
-//        toolbar = (Toolbar) findViewById(R.id.toolbar);
+
 
         View view = navigationView.inflateHeaderView(R.layout.layout_header_navigation_trangchu);
         txtTenNhanVien_Navigation = (TextView) view.findViewById(R.id.txtTenNhanVien_Navigation);
-
-//        setSupportActionBar(toolbar);
-//        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//
-//        ActionBarDrawerToggle drawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.mo,R.string.dong){
-//            @Override
-//            public void onDrawerOpened(View drawerView) {
-//                super.onDrawerOpened(drawerView);
-//            }
-//
-//            @Override
-//            public void onDrawerClosed(View drawerView) {
-//                super.onDrawerClosed(drawerView);
-//            }
-//        };
-//
-//        drawerLayout.setDrawerListener(drawerToggle);
-//        drawerToggle.syncState();
 
         navigationView.setItemIconTintList(null);
         navigationView.setNavigationItemSelectedListener(this);
